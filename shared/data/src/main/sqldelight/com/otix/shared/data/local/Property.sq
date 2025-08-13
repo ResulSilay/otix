@@ -1,0 +1,24 @@
+CREATE TABLE property (
+    vehicleId TEXT NOT NULL,
+    vehicleKey TEXT NOT NULL,
+    vehicleValue TEXT,
+    createdDate TEXT DEFAULT CURRENT_TIMESTAMP,
+    updatedDate TEXT DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (vehicleId, vehicleKey)
+);
+
+getAll:
+SELECT vehicleKey, vehicleValue FROM property WHERE vehicleId = ?;
+
+get:
+SELECT vehicleValue FROM property WHERE vehicleId = ? AND vehicleKey = ?;
+
+save:
+INSERT OR REPLACE INTO property(vehicleId, vehicleKey, vehicleValue, updatedDate)
+VALUES (?, ?, ?, CURRENT_TIMESTAMP);
+
+deleteByVehicleId:
+DELETE FROM property WHERE vehicleId = ?;
+
+deleteAll:
+DELETE FROM property;

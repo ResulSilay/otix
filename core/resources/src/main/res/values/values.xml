@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Otix</string>
+    <string name="app_title">OTIX</string>
+
+    <string-array name="home_tabs">
+        <item>Dashboard</item>
+        <item>Fuel</item>
+        <item>Sensor</item>
+        <item>Map</item>
+        <item>Trips</item>
+    </string-array>
+
+    <string-array name="automotive_tabs">
+        <item>Info</item>
+        <item>Fuel</item>
+        <item>Sensor</item>
+        <item>Location</item>
+    </string-array>
+
+    <string name="vehicle_status_inform_title">Android Auto Connection Required</string>
+    <string name="vehicle_status_inform_description">Please connect to Android Auto and start using the app on your vehicle’s display.</string>
+    <string name="vehicle_demo_account_button_text">Demo Account</string>
+    <string name="auto_permission_page_title">Permissions Required</string>
+    <string name="auto_permission_page_description">This app requires certain permissions to function properly.</string>
+    <string name="auto_permission_page_request_button_text">Grant</string>
+    <string name="mobile_home_menu_text">MENU</string>
+    <string name="mobile_tab_dashboard_text">Dashboard</string>
+    <string name="mobile_tab_fuel_text">Fuel</string>
+    <string name="mobile_tab_sensor_text">Sensor</string>
+    <string name="mobile_tab_map_text">Map</string>
+    <string name="mobile_tab_trip_text">Trips</string>
+    <string name="wear_info_header_text">Info</string>
+    <string name="wear_fuel_header_text">Fuel</string>
+    <string name="default_empty_state_text">No data available.</string>
+    <string name="default_button_save_text">Save</string>
+    <string name="card_info_vehicle_header_title">Vehicle</string>
+    <string name="card_info_vehicle_id_title">Vehicle Code</string>
+    <string name="card_info_manufacturer_title">Manufacturer</string>
+    <string name="card_info_name_title">Name</string>
+    <string name="card_info_year_title">Year</string>
+    <string name="card_info_speed_header_title">Speed</string>
+    <string name="card_info_display_speed_title">Display Speed</string>
+    <string name="card_info_raw_speed_title">Raw Speed</string>
+    <string name="card_info_speed_display_unit_title">Speed Unit</string>
+    <string name="card_info_energy_profile_header_title">Energy Profile</string>
+    <string name="card_info_ev_connector_types_title">Ev Connector Types</string>
+    <string name="card_info_energy_level_header_title">Energy Level</string>
+    <string name="card_info_energy_low_title">Energy Low</string>
+    <string name="card_info_fuel_info_title">Fuel Info</string>
+    <string name="card_info_fuel_types_title">Fuel Types</string>
+    <string name="card_info_fuel_percent_title">Fuel Percent</string>
+    <string name="card_info_fuel_unit_title">Fuel Unit</string>
+    <string name="card_info_battery_percent_title">Battery Percent</string>
+    <string name="card_info_range_remaining_meters_title">Range Remaining</string>
+    <string name="card_info_mileage_header_title">Mileage</string>
+    <string name="card_info_distance_display_unit_title">Distance Unit</string>
+    <string name="card_info_distance_unit_title">Distance Unit</string>
+    <string name="card_info_odometer_title">Odometer</string>
+    <string name="card_info_odometer_meters_unit_title">Odometer Unit</string>
+    <string name="card_info_ev_status_header_title">Ev Status</string>
+    <string name="card_info_charge_port_open_title">Charge Port Open</string>
+    <string name="card_info_charge_port_connected_title">Charge Port Connected</string>
+    <string name="card_info_toll_card_header_title">Toll Card</string>
+    <string name="card_info_toll_card_state_title">Toll Card State</string>
+    <string name="card_info_card_state_title">Card State</string>
+    <string name="card_info_ev_change_open_title">EV Charge Open</string>
+    <string name="card_info_ev_change_connected_title">EV Charge Connected</string>
+    <string name="card_sensor_accelerometer_title">Accelerometer</string>
+    <string name="card_sensor_gyroscope_title">Gyroscope</string>
+    <string name="card_sensor_compass_title">Compass</string>
+    <string name="card_sensor_hardware_location_title">Hardware Location</string>
+    <string name="card_sensor_gps_location_title">Phone Location</string>
+    <string name="sensor_x_axis_text">x-Axis</string>
+    <string name="sensor_y_axis_text">y-Axis</string>
+    <string name="sensor_z_axis_text">z-Axis</string>
+    <string name="sensor_bearing_text">Bearing</string>
+    <string name="sensor_azimuth_text">Azimuth</string>
+    <string name="sensor_pitch_text">Pitch</string>
+    <string name="sensor_roll_text">Roll</string>
+    <string name="sensor_location_latitude_text">Latitude</string>
+    <string name="sensor_location_longitude_text">Longitude</string>
+    <string name="map_location_text">Location:</string>
+    <string name="map_phone_text">(Phone)</string>
+    <string name="map_hardware_text">(Hardware)</string>
+    <string name="trip_card_distance_title">Distance</string>
+    <string name="trip_card_fuel_title">Fuel</string>
+    <string name="trip_empty_state_text">Not Found Trip</string>
+    <string name="trip_chart_empty_state_text">Not Found Data</string>
+    <string name="trip_detail_fuel_line_chart_title">Fuel Percent Line Chart</string>
+    <string name="trip_detail_fuel_bar_chart_title">Fuel Percent Bar Chart</string>
+    <string name="trip_detail_battery_line_chart_title">Battery Percent Line Chart</string>
+    <string name="trip_detail_battery_bar_chart_title">Battery Percent Bar Chart</string>
+    <string name="trip_detail_map_routes_button_text">Route Map</string>
+    <string name="trip_info_address_title">Address</string>
+    <string name="trip_info_location_title">Location</string>
+    <string name="trip_info_fuel_percent_title">Fuel Percent</string>
+    <string name="trip_info_battery_percent_title">Battery Percent</string>
+    <string name="settings_item_vehicle_title">Vehicles</string>
+    <string name="fuel_capacity_placeholder">Fuel Level</string>
+    <string name="fuel_capacity_unit_text">Liter</string>
+    <string name="fuel_capacity_batter_placeholder">Battery Level</string>
+    <string name="fuel_capacity_battery_unit_text">KWh</string>
+    <string name="fuel_info_card_title">Fuel Capacity</string>
+    <string name="fuel_info_card_text">Enter your fuel and battery capacity values to personalize your trip analysis.</string>
+    <string name="fuel_info_edit_button_text">Edit Capacity</string>
+    <string name="empty_screen_message">Unknown Route:</string>
+    <string name="energy_not_low_text">"Energy: Not Low"</string>
+    <string name="energy_low_text">"Energy: Low"</string>
+</resources>

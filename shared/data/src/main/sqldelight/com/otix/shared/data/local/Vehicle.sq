@@ -1,0 +1,24 @@
+CREATE TABLE vehicle(
+    id TEXT PRIMARY KEY,
+    info TEXT,
+    createdDate TEXT DEFAULT CURRENT_TIMESTAMP,
+    updatedDate TEXT
+);
+
+getAll:
+SELECT * FROM vehicle;
+
+get:
+SELECT * FROM vehicle WHERE id = ?;
+
+getLast:
+SELECT * FROM vehicle ORDER BY updatedDate DESC LIMIT 1;
+
+save:
+INSERT OR REPLACE INTO vehicle(id, info, updatedDate) VALUES (?, ?, CURRENT_TIMESTAMP);
+
+delete:
+DELETE FROM vehicle WHERE id = ?;
+
+deleteAll:
+DELETE FROM vehicle;

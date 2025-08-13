@@ -1,0 +1,21 @@
+CREATE TABLE trip(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    vehicleId TEXT,
+    info TEXT,
+    createdDate TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+getAll:
+SELECT * FROM trip ORDER BY createdDate DESC;
+
+getAllByVehicleId:
+SELECT * FROM trip WHERE vehicleId = ? ORDER BY createdDate DESC;
+
+get:
+SELECT * FROM trip WHERE id = ?;
+
+insert:
+INSERT OR REPLACE INTO trip(id, vehicleId, info) VALUES (?, ?, ?);
+
+deleteAll:
+DELETE FROM trip;
